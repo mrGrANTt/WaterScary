@@ -3,7 +3,8 @@
 > The damage is visual and does not cause real damage.
 
 A simple plugin that adds visual damage while in the water. The sound is also played at the level. 
-![Screenshot 2025-04-04 225929](https://github.com/user-attachments/assets/d33f9ff7-359f-4b55-b463-fd61fa02dc99)
+![Screenshot 2025-04-04 225929](https://github.com/user-attachments/assets/81cce3af-12ff-4baf-befb-3fedd661bf2e)
+
 
 <br/>
 
