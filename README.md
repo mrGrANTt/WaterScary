@@ -16,7 +16,7 @@ The longer you are in the water, the more often shaking.
 
 
 ## Plans: 
- ❌ add a plugin switch <br/>
+ ❌ add a mod switch <br/>
  ❌ add some integrations <br/>
  ❌ settings menu <br/>
  ❌ ability to turn on real damage (single-player) <br/>
