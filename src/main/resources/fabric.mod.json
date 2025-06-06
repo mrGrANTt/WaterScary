@@ -3,13 +3,13 @@
 	"id": "waterscary",
 	"version": "${version}",
 	"name": "WaterScary",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A simple mod that adds visual damage while in the water. The sound is also played at the level. The longer you are in the water, the more often shaking.",
 	"authors": [
-		"Me!"
+		"mr_GrANTt"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/mrGrANTt/WaterScary/"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/waterscary/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"com.mrg.WaterScaryClient"
+		],
+		"modmenu": [
+			"com.mrg.ModeMenuApi"
 		]
 	},
 	"mixins": [
@@ -37,5 +40,13 @@
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.modrinth": "https://modrinth.com/mod/wather-scary"
+			},
+			"update_checker": true
+		}
 	}
 }

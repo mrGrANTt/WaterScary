@@ -3,6 +3,7 @@ package com.mrg;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.client.world.ClientWorld;
 import net.minecraft.sound.SoundEvents;
@@ -12,6 +13,12 @@ import net.minecraft.util.math.BlockPos;
 public class WaterScaryClient implements ClientModInitializer {
 	private int counter = 0;
 	private int timeInWater = 0;
+	private static final ConfigScreen cnfScreen = new ConfigScreen();
+
+	public static Screen getCnfScreen(Screen screen) {
+		cnfScreen.setLastScreen(screen);
+		return cnfScreen;
+	}
 
 	@Override
 	public void onInitializeClient() {
