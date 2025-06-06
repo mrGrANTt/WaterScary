@@ -4,7 +4,7 @@ First simplified version. Exclusively sound and illusory damage...
 
 > The damage is visual and does not cause real damage.
 
-A simple mod that adds visual damage while in the water. The sound is also played at the level. <br/>
+A simple plugin that adds visual damage while in the water. The sound is also played at the level. <br/>
 The longer you are in the water, the more often shaking.
 
 <br/>
@@ -16,7 +16,7 @@ The longer you are in the water, the more often shaking.
 
 
 ## Plans: 
- ❌ add a mode switch <br/>
+ ❌ add a plugin switch <br/>
  ❌ add some integrations <br/>
- 🕑 settings menu <br/>
+ ❌ settings menu <br/>
  ❌ ability to turn on real damage (single-player) <br/>
